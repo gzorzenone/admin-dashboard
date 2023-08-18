@@ -37,3 +37,47 @@ body {
 .sidebar .item:first-child img {
   height: 48px;
 }
+
+.header {
+  font-weight: bold;
+}
+
+.top .text {
+  font-size: 1.25rem;
+}
+
+.top img {
+  height: 24px;
+}
+
+.top img:last-of-type {
+  height: 40px;
+  border-radius: 50%;
+}
+
+input {
+  background-color: #e5e7eb;
+  width: 400px;
+  border: none;
+  border-radius: 8px;
+}
+
+.bottom .text {
+  font-size: 1.5rem;
+}
+
+.bottom .text:first-of-type {
+  font-size: 0.75rem;
+}
+
+.bottom img {
+  height: 64px;
+  border-radius: 50%;
+}
+
+.button {
+  background-color: #a8a29e;
+  width: 80px;
+  border-radius: 16px;
+  padding: 8px 16px;
+}
