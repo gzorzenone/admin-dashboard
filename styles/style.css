@@ -8,6 +8,32 @@
   src: url(../fonts/Roboto/Roboto-Regular.ttf);
 }
 
+body {
+  margin: 0;
+}
+
 .container {
   font-family: Roboto, sans-serif;
+}
+
+.container > div {
+  padding: 16px;
+}
+
+.sidebar {
+  background-color: #a8a29e;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.sidebar img {
+  height: 24px;
+}
+
+.sidebar .item:first-child {
+  font-size: 1.5rem;
+}
+
+.sidebar .item:first-child img {
+  height: 48px;
 }
