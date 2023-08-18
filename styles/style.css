@@ -81,3 +81,59 @@ input {
   border-radius: 16px;
   padding: 8px 16px;
 }
+
+.main {
+  background-color: #e5e7eb;
+}
+
+.legend {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card {
+  background-color: white;
+  border-left: 8px solid #292524;
+  border-radius: 8px;
+  padding: 32px;
+}
+
+.card .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card .text {
+  font-family: sans-serif;
+}
+
+.card img {
+  height: 24px;
+}
+
+.section {
+  background-color: white;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.announcements .item {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.announcements .title {
+  font-weight: bold;
+}
+
+.announcements .text {
+  font-family: sans-serif;
+}
+
+.trending .text:last-of-type {
+  color: #6b7280;
+}
+
+.trending img {
+  height: 40px;
+  border-radius: 50%;
+}
